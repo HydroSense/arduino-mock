@@ -17,6 +17,7 @@ void releaseSerialMock() {
   }
 }
 
+/*
 size_t Serial_::print(const char *s) {
   return gSerialMock->print(s);
 }
@@ -115,3 +116,4 @@ uint8_t Serial_::read() {
 
 // Preinstantiate Objects
 Serial_ Serial;
+*/
